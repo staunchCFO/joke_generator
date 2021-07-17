@@ -11,7 +11,7 @@ function useRandomJoke(firstName , lastName) {
             .then(data => {
                 setJoke(data.value.joke)
             });
-            if(firstName != "" && lastName != "") {
+            if(firstName !== "" && lastName !== "") {
                 fetchJoke();
             }
     }, [firstName , lastName]);
