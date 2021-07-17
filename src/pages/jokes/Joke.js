@@ -54,7 +54,7 @@ const Joke = () => {
                         placeholder="Last Name" 
                         ref={lastNameRef} 
                     />
-                    <button onClick={generateJoke}>Generate Joke</button>
+                    <button onClick={generateJoke}>Generate Jokes</button>
                     {/* <button onClick={handleReset}>Reset</button> */}
                 </form>
             </FormContainer>
