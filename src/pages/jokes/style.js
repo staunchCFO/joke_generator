@@ -24,8 +24,8 @@ export const MainContainer = styled.div`
         .welcome {
             display: block;
             overflow-y: scroll;
-            font-size: .5rem;
-            padding: 0;
+            font-size: .7rem;
+            padding: 0px 0px 15px 0px;
             height: 30%;
             margin-bottom: 5rem;
         }
@@ -55,7 +55,7 @@ export const FormContainer = styled.div`
         margin-bottom: 30px;
     }
     button {
-        padding: 19px 39px 18px 39px;
+        padding: 15px 30px 15px 30px;
         color: #FFF;
         background-color: #4bc970;
         font-size: 18px;

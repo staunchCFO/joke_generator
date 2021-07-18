@@ -55,7 +55,6 @@ const Joke = () => {
                         ref={lastNameRef} 
                     />
                     <button onClick={generateJoke}>Generate Jokes</button>
-                    {/* <button onClick={handleReset}>Reset</button> */}
                 </form>
             </FormContainer>
         </MainContainer>
